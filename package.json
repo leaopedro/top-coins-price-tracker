@@ -1,0 +1,21 @@
+{
+  "name": "top-coins-price-tracker",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "server": "node src/server.js",
+    "once": "node src/server.js --single"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hyperswarm/rpc": "^3.3.2",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "hyperbee": "^2.24.2",
+    "hypercore": "^11.6.3",
+    "hyperdht": "^6.20.5"
+  }
+}
